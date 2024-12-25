@@ -24,10 +24,8 @@ st.title("Fin-Bot")
 st.subheader(f"Your finance assistant")
 st.write("This bot can assist you with finance related queries*")
 st.write("Made with ❤️ by Aayush Chauhan | © 2024")
-if st.button('Show T&Cs'):
-    st.markdown(f"- *accuracy of answers is subject to model accuracy.")
-    st.markdown(f"- Currently using {model_name} model ")
-    st.markdown(f"- responses are subject to rate limits")
+st.markdown(f"####### *accuracy of answers is subject to model accuracy.")
+    
 if st.button('Instructions'):
     st.markdown(f"- Use Stocks symbols for calling stocks, eg. TSLA for Tesla and NVDA for NVIDIA")
     st.markdown(f"- Ask Questions related to Stock Prices, Analyst recommendations, and News ")
