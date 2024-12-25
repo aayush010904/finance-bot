@@ -28,6 +28,9 @@ if st.button('Show T&Cs'):
     st.markdown(f"- *accuracy of answers is subject to model accuracy.")
     st.markdown(f"- Currently using {model_name} model ")
     st.markdown(f"- responses are subject to rate limits")
+if st.button('Instructions'):
+    st.markdown(f"- Use Stocks symbols for calling stocks, eg. TSLA for Tesla and NVDA for NVIDIA")
+    st.markdown(f"- Ask Questions related to Stock Prices, Analyst recommendations, and News ")
 
 
 # Initialize chat history
