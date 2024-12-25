@@ -23,6 +23,7 @@ agent = Agent(
 st.title("Fin-Bot")
 st.subheader(f"Your finance assistant")
 st.write("This bot can assist you with finance related queries*")
+st.write("Made with ❤️ by Aayush Chauhan | © 2024")
 if st.button('Show T&Cs'):
     st.markdown(f"- *accuracy of answers is subject to model accuracy.")
     st.markdown(f"- Currently using {model_name} model ")
