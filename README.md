@@ -92,7 +92,7 @@ pip install -r requirements.txt
 
 ---
 
-## Terms and Conditions
+## Limitations
 
 - The bot's responses are subject to the accuracy of the AI model and available data.
 - Rate limits may apply for API calls.
